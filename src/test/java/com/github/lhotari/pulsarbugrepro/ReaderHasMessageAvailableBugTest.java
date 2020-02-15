@@ -20,7 +20,7 @@ import static org.assertj.core.api.Assertions.*;
 @Testcontainers
 class ReaderHasMessageAvailableBugTest {
     @Container
-    private static final PulsarContainer PULSAR = new PulsarContainer("2.5.0");
+    private static final PulsarContainer PULSAR = new PulsarContainer("2.4.2");
     private static final String TOPIC = "my-topic";
 
     @Test
